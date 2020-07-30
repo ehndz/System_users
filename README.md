@@ -14,3 +14,7 @@ Descarga como zip o clona este repositorio en la carpeta destino donde tu servid
 Ejemplo demo para acceder estando en un host local: http://localhost/system_users/ .
 
 En este ejemplo se renderiza el controlador configurado por default: HomeController. El controlador por default puede ser cambiado en el archivo de configuración. Tambien posee en la configuración las rutas a las distintas carpetas.
+
+## Base de Datos
+
+Se incluye archivo de base de datos en mysql de nombre system_users.sql.
