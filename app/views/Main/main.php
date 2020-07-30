@@ -253,18 +253,6 @@
                   <i class="ni ni-single-02"></i>
                   <span>My profile</span>
                 </a>
-                <!-- <a href="#!" class="dropdown-item">
-                  <i class="ni ni-settings-gear-65"></i>
-                  <span>Settings</span>
-                </a>
-                <a href="#!" class="dropdown-item">
-                  <i class="ni ni-calendar-grid-58"></i>
-                  <span>Activity</span>
-                </a>
-                <a href="#!" class="dropdown-item">
-                  <i class="ni ni-support-16"></i>
-                  <span>Support</span>
-                </a> -->
                 <div class="dropdown-divider"></div>
                 <a href="/system_users/main/logout" class="dropdown-item">
                   <i class="ni ni-user-run"></i>
@@ -359,8 +347,6 @@
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <!-- <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                    <span class="text-nowrap">Completa los datos basicos del perfil</span> -->
                   </p>
                 </div>
               </div>
@@ -391,15 +377,6 @@
               <li class="nav-item">
                 <a href="#" class="nav-link" target="_blank">Elvis J Hernandez</a>
               </li>
-              <!-- <li class="nav-item">
-                <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
-              </li> -->
             </ul>
           </div>
         </div>
@@ -425,24 +402,6 @@
           var formData = new FormData();
         var files = $('#image')[0].files[0];
         formData.append('file',files);
-        // $.ajax({
-        //     url: 'upload.php',
-        //     type: 'post',
-        //     data: formData,
-        //     contentType: false,
-        //     processData: false,
-        //     success: function(response) {
-        //         if (response != 0) {
-        //             $(".card-img-top").attr("src", response);
-        //         } else {
-        //             alert('Formato de imagen incorrecto.');
-        //         }
-        //     }
-        // });
-        //return false;
-        console.log(files);
-          console.log(formData);
-         // return;
 
             let name = $("#input-first-name").val();
             let apellido = $("#input-last-name").val();
@@ -573,27 +532,6 @@
             
           });
         });
-
-        // Subir imagen
-        // var formData = new FormData();
-        // var files = $('#image')[0].files[0];
-        // formData.append('file',files);
-        // $.ajax({
-        //     url: 'upload.php',
-        //     type: 'post',
-        //     data: formData,
-        //     contentType: false,
-        //     processData: false,
-        //     success: function(response) {
-        //         if (response != 0) {
-        //             $(".card-img-top").attr("src", response);
-        //         } else {
-        //             alert('Formato de imagen incorrecto.');
-        //         }
-        //     }
-        // });
-        //return false;
-          // console.log(formData);
       })
       </script>
 </body>

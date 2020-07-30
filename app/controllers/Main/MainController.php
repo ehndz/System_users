@@ -20,13 +20,11 @@ class MainController extends Controller
     $this->session = new Session();
     $this->session->init();
     if($this->session->getStatus() === 1 || empty($this->session->get('email')))
-      //exit('Acceso denegado');
       header('location: /system_users/login');
   }
 
   public function exec()
   {
-    //$this->show();
     $this->usuarios();
   }
 

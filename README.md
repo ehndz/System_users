@@ -1,7 +1,9 @@
 # system_users 
 
 
-![alt tag](https://cloud.githubusercontent.com/assets/10777626/25569022/ff391a18-2dd3-11e7-82f3-9b43775c6ce2.PNG)
+![alt tag](https://github.com/ehndz/System_users/blob/master/assets/1.png)
+
+![alt tag](https://github.com/ehndz/System_users/blob/master/assets/2.png)
 
 Este es un ejemplo de MVC con Php hecho desde cero.
 
